@@ -1,6 +1,6 @@
 import {compute} from './compute';
 
-describe('compute', ()=>{
+describe('compute - S00237686 - Tristan Cawley', ()=>{
     it('should return 0 if the input is negative',() => {
         const result = compute(-1);
         expect(result).toBe(0);
